@@ -9,9 +9,9 @@ public class SwitchArray {
     }
 
     public static String[] swap(String[] array, int source, int dest) {
-        String tem = array[source];
+        String temp = array[source];
         array[source] = array[dest];
-        array[dest] = tem;
+        array[dest] = temp;
         return array;
     }
 
